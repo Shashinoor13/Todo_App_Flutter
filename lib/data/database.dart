@@ -4,4 +4,8 @@ class ToDoDatabase {
   List Tasks = [];
   //reference the box
   final _myBox = Hive.openBox('myBox');
+
+  void CreateInitialData(){
+    
+  }
 }
